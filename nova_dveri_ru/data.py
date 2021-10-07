@@ -1,1 +1,1 @@
-base_url = 'https://nova-dveri.ru/'
+BASE_URL = 'https://nova-dveri.ru/'
