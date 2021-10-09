@@ -296,7 +296,7 @@ def get_images(soup: BeautifulSoup) -> list:
         slider_tag = soup.find('div', {'class': 'none-slider-bigthumb'})
         a_tag = slider_tag.find('a')
         link = a_tag.get('href')
-        images.append({'link': link,})
+        images.append({'link': link})
 
     return images
 
