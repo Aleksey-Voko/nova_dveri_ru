@@ -3,10 +3,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-from nova_dveri_ru.data import BASE_URL, HTML_SITE_MAP, USER_AGENT
-
-HEADERS = {
-    'User-Agent': USER_AGENT}
+from nova_dveri_ru.data import BASE_URL, HTML_SITE_MAP, HEADERS
 
 
 def get_html(url):
