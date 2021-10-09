@@ -15,6 +15,6 @@ def save_html_code(input_url: str, out_file: str):
 
 
 if __name__ == '__main__':
-    url = 'https://nova-dveri.ru/dvernaya-furnitura/'
-    out_html_file = 'dvernaya-furnitura.html'
+    url = 'https://nova-dveri.ru/mezhkomnatnye-dveri/ehkoshpon/il%20doors/dver-galleya-07-chern-yasen-svetlyj'
+    out_html_file = 'galleya-07-chern-yasen-svetlyj.html'
     save_html_code(url, out_html_file)
